@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    background: #8e24aa;
+    background: linear-gradient(
+        to right,
+        rgba(210, 255, 82, 1) 0%,
+        rgba(145, 232, 66, 1) 100%
+    );
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto", monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
